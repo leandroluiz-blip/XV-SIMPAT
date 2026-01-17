@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XV Simpat - Simpósio de Atuária</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-sm fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <img src="imagens/logo/logosimpat.png" alt="Logo XV Simpat" class="h-14 w-auto hover:opacity-90 transition">
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#inicio" class="text-gray-600 hover:text-simpatOrange font-medium transition">Início</a>
+                    <a href="#sobre" class="text-gray-600 hover:text-simpatOrange font-medium transition">Sobre</a>
+                    <a href="#programacao" class="text-gray-600 hover:text-simpatOrange font-medium transition">Programação</a>
+                    <a href="#palestrantes" class="text-gray-600 hover:text-simpatOrange font-medium transition">Palestrantes</a>
+                    <a href="#inscricao" class="bg-simpatOrange text-white px-5 py-2.5 rounded-full font-bold hover:bg-orange-600 transition shadow-md hover:shadow-orange-500/30">Inscrever-se</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative pt-20 pb-32 flex items-center justify-center text-center px-4 overflow-hidden min-h-screen">
+        <div class="absolute inset-0 bg-gradient-to-br from-simpatGreen via-green-500 to-simpatYellow opacity-90"></div>
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-multiply"></div>
+        
+        <div class="absolute top-20 left-10 w-32 h-32 bg-simpatOrange rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob"></div>
+        <div class="absolute bottom-10 right-10 w-40 h-40 bg-simpatYellow rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-blob animation-delay-2000"></div>
+
+        <div class="relative z-10 max-w-5xl mx-auto mt-10">
+            <div class="inline-block bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-4 py-1 mb-6">
+                <span class="text-white font-bold tracking-wide uppercase text-sm">📅 08 a 10 de Abril de 2026 • Sergipe & Online</span>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight drop-shadow-sm">
+                XV Simpósio de Atuária <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-white">
+                    Tecnologia Extrapolando o Tradicional
+                </span>
+            </h1>
+            
+            <p class="text-green-50 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-medium">
+                O maior encontro de inteligência atuarial do Nordeste. Junte-se à UFS e grandes nomes do mercado para discutir o futuro dos dados.
+            </p>
+            
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#inscricao" class="bg-white text-simpatGreen px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-xl transform hover:-translate-y-1">
+                    Submeter Trabalho
+                </a>
+                <a href="#programacao" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition">
+                    Ver Programação
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-simpatDark">O Evento</h2>
+                <div class="w-20 h-1 bg-simpatOrange mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 bg-green-50 rounded-2xl border border-green-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center mb-6 shadow-sm">
+                        <i class="fas fa-university text-simpatGreen text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-simpatDark mb-3">Acadêmico</h3>
+                    <p class="text-gray-600">Realizado pelo DECAT/UFS, promovendo produção científica de alto nível.</p>
+                </div>
+                <div class="p-8 bg-orange-50 rounded-2xl border border-orange-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center mb-6 shadow-sm">
+                        <i class="fas fa-lightbulb text-simpatOrange text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-simpatDark mb-3">Inovação</h3>
+                    <p class="text-gray-600">Foco em Big Data, IA e novas tecnologias aplicadas ao mercado.</p>
+                </div>
+                <div class="p-8 bg-yellow-50 rounded-2xl border border-yellow-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center mb-6 shadow-sm">
+                        <i class="fas fa-wifi text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-simpatDark mb-3">Híbrido</h3>
+                    <p class="text-gray-600">Presencial no Anfiteatro da UFS e Online para todo o Brasil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programacao" class="py-24 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-simpatDark text-center mb-12">Programação Oficial</h2>
+            
+            <div class="space-y-8">
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-simpatGreen p-5 flex flex-col md:flex-row justify-between items-center text-white">
+                        <h3 class="font-bold text-xl flex items-center"><i class="far fa-calendar-alt mr-3"></i> 08 de Abril (Quarta)</h3>
+                        <span class="bg-white/20 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">Abertura</span>
+                    </div>
+                    <div class="p-8">
+                        <ul class="space-y-6">
+                            <li class="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-6">
+                                <span class="font-bold text-simpatOrange text-lg w-24">19:00</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Cerimônia de Abertura</h4>
+                                    <p class="text-gray-600 mt-1">André Maurício (Reitor UFS) e Cristiane Corrêa (Coord.)</p>
+                                </div>
+                            </li>
+                            <li class="flex flex-col sm:flex-row gap-4">
+                                <span class="font-bold text-simpatOrange text-lg w-24">19:30</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Mesa Redonda: Multidisciplinaridade da Atuária</h4>
+                                    <p class="text-gray-600 mt-1">Representantes da UFS, UFRN, UFPE, UFC e UFPB</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-simpatGreen p-5 flex flex-col md:flex-row justify-between items-center text-white">
+                        <h3 class="font-bold text-xl flex items-center"><i class="far fa-calendar-alt mr-3"></i> 09 de Abril (Quinta)</h3>
+                        <span class="bg-white/20 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">Técnico</span>
+                    </div>
+                    <div class="p-8">
+                        <ul class="space-y-6">
+                            <li class="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-6">
+                                <span class="font-bold text-simpatOrange text-lg w-24">14:00</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Minicursos Simultâneos</h4>
+                                    <p class="text-gray-600 mt-1">1. Ferramentas computacionais (Fluxus) <br> 2. Simulação Estocástica (Cristiane Corrêa/UFS)</p>
+                                </div>
+                            </li>
+                            <li class="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-6">
+                                <span class="font-bold text-simpatOrange text-lg w-24">19:00</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Justiça Atuarial e Atuários na Justiça</h4>
+                                    <p class="text-gray-600 mt-1">Priscila Portal (IBA) e Eder Oliveira (Atuária Brasil)</p>
+                                    <span class="text-xs text-simpatOrange font-bold uppercase mt-1 inline-block">Risco Legal</span>
+                                </div>
+                            </li>
+                            <li class="flex flex-col sm:flex-row gap-4">
+                                <span class="font-bold text-simpatOrange text-lg w-24">20:30</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Atuária Mundo Afora & Voluntariado</h4>
+                                    <p class="text-gray-600 mt-1">Raquel Marimon (IBA/IAA) e Renan Kae Hou Wu (AIG)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="bg-simpatGreen p-5 flex flex-col md:flex-row justify-between items-center text-white">
+                        <h3 class="font-bold text-xl flex items-center"><i class="far fa-calendar-alt mr-3"></i> 10 de Abril (Sexta)</h3>
+                        <span class="bg-white/20 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">Inovação</span>
+                    </div>
+                    <div class="p-8">
+                        <ul class="space-y-6">
+                             <li class="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-6">
+                                <span class="font-bold text-simpatOrange text-lg w-24">19:00</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Data Science Extrapolando o Tradicional</h4>
+                                    <p class="text-gray-600 mt-1">Jordão Alves (Ponta) - Presencial</p>
+                                </div>
+                            </li>
+                            <li class="flex flex-col sm:flex-row gap-4">
+                                <span class="font-bold text-simpatOrange text-lg w-24">20:30</span>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 text-lg">Encerramento e Premiação</h4>
+                                    <p class="text-gray-600 mt-1">Divulgação dos melhores trabalhos</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscricao" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="bg-gradient-to-br from-simpatDark to-gray-900 rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-simpatGreen rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+                <div class="absolute bottom-0 left-0 w-64 h-64 bg-simpatOrange rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+                    <div class="text-white">
+                        <span class="bg-simpatOrange text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Call for Papers</span>
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Submeta seu Trabalho</h2>
+                        <div class="flex flex-wrap gap-4 mb-8">
+                            <div class="flex items-center bg-white/10 px-4 py-2 rounded-lg">
+                                <i class="far fa-clock text-simpatYellow mr-3 text-xl"></i>
+                                <div>
+                                    <p class="text-xs text-gray-400 uppercase font-bold">Deadline</p>
+                                    <p class="font-bold text-white">27/02/2026</p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="text-sm text-gray-300 space-y-2 mb-8">
+                            <li><i class="fas fa-check text-simpatGreen mr-2"></i> Artigo curto (1 a 5 páginas)</li>
+                            <li><i class="fas fa-check text-simpatGreen mr-2"></i> Formato Word (.doc/.docx)</li>
+                            <li><i class="fas fa-exclamation-triangle text-simpatOrange mr-2"></i> <strong>Não coloque nome no arquivo</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-8 text-center shadow-lg">
+                        <h3 class="text-2xl font-bold text-simpatDark mb-2">Pronto para enviar?</h3>
+                        <a href="https://forms.gle/s7VrKNB4aZV372826" target="_blank" class="block w-full bg-simpatGreen text-white py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition shadow-lg hover:shadow-green-500/50 mb-4">
+                            Acessar Formulário de Submissão
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="palestrantes" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-simpatDark">Palestrantes & Convidados</h2>
+                <div class="w-20 h-1 bg-simpatOrange mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                
+                <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                        <div class="absolute inset-0 bg-simpatGreen rounded-full opacity-0 group-hover:opacity-100 transition duration-500 blur-md"></div>
+                        <img src="imagens/imagens palestrantes/andremauricio-_reitor.jfif" onerror="this.src='https://ui-avatars.com/api/?name=Andre+Mauricio&background=32CD32&color=fff'" class="w-44 h-44 rounded-full object-cover border-4 border-white shadow-lg relative z-10 group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">André Maurício</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">Reitor da UFS</p>
+                </div>
+
+                <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                        <div class="absolute inset-0 bg-simpatGreen rounded-full opacity-0 group-hover:opacity-100 transition duration-500 blur-md"></div>
+                        <img src="imagens/imagens palestrantes/cristiane_professoratitulardaufs.jfif" onerror="this.src='https://ui-avatars.com/api/?name=Cristiane+Correa&background=32CD32&color=fff'" class="w-44 h-44 rounded-full object-cover border-4 border-white shadow-lg relative z-10 group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">Cristiane Corrêa</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">Coord. Simpat</p>
+                </div>
+
+                <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                        <div class="absolute inset-0 bg-simpatGreen rounded-full opacity-0 group-hover:opacity-100 transition duration-500 blur-md"></div>
+                        <img src="imagens/imagens palestrantes/cleberxavier_coordenadordodecat.jpeg" onerror="this.src='https://ui-avatars.com/api/?name=Cleber+Xavier&background=32CD32&color=fff'" class="w-44 h-44 rounded-full object-cover border-4 border-white shadow-lg relative z-10 group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">Cleber Xavier</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">Coord. DECAT</p>
+                </div>
+
+                <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                        <div class="absolute inset-0 bg-simpatGreen rounded-full opacity-0 group-hover:opacity-100 transition duration-500 blur-md"></div>
+                        <img src="imagens/imagens palestrantes/marcelocoelho_professortitulardaufs.jfif" onerror="this.src='https://ui-avatars.com/api/?name=Marcelo+Coelho&background=32CD32&color=fff'" class="w-44 h-44 rounded-full object-cover border-4 border-white shadow-lg relative z-10 group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">Marcelo Coelho</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">Prof. Titular UFS</p>
+                </div>
+                
+                <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                         <div class="w-44 h-44 rounded-full bg-gray-200 flex items-center justify-center border-4 border-white shadow-lg mx-auto text-gray-400 relative z-10">
+                            <i class="fas fa-user text-6xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">Priscila Portal</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">Atuário Perito (IBA)</p>
+                </div>
+
+                 <div class="group text-center">
+                    <div class="relative w-44 h-44 mx-auto mb-5">
+                        <div class="w-44 h-44 rounded-full bg-gray-200 flex items-center justify-center border-4 border-white shadow-lg mx-auto text-gray-400 relative z-10">
+                            <i class="fas fa-user text-6xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">Raquel Marimon</h3>
+                    <p class="text-simpatOrange text-sm font-bold uppercase tracking-wide">IBA e IAA</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+                
+                <div class="flex flex-col items-center">
+                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4 border-b border-gray-200 pb-2 w-full">Realização</h3>
+                    <div class="flex flex-col space-y-2">
+                        <span class="font-bold text-gray-800 text-lg">UFS</span>
+                        <span class="text-sm text-gray-600">Departamento de Estatística e Ciências Atuariais</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4 border-b border-gray-200 pb-2 w-full">Patrocínio</h3>
+                    <div class="flex flex-col space-y-2">
+                        <span class="font-bold text-simpatGreen text-lg">FAPITEC/SE</span>
+                        <span class="font-bold text-gray-700 text-sm">Governo do Estado de Sergipe</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-4 border-b border-gray-200 pb-2 w-full">Apoio</h3>
+                    <div class="flex flex-col space-y-2">
+                        <span class="font-bold text-gray-800 text-lg">UFRN • IBA</span>
+                        <span class="text-sm text-gray-600">UFPE • UFC • UFPB</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-simpatDark text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+                <div class="text-center md:text-left">
+                    <img src="imagens/logo/logosimpat.png" alt="Logo Rodapé" class="h-10 w-auto mb-4 mx-auto md:mx-0 opacity-90 grayscale hover:grayscale-0 transition">
+                    <p class="text-gray-400 text-sm max-w-sm">
+                        O XV Simpósio de Atuária é um evento de referência nacional em tecnologia e gestão de riscos.
+                    </p>
+                </div>
+                <div class="text-center md:text-right">
+                    <h4 class="font-bold text-white mb-2">Contato & Local</h4>
+                    <p class="text-sm text-gray-400">
+                        Anfiteatro do CCET/UFS<br>
+                        Campus São Cristóvão, SE
+                    </p>
+                </div>
+            </div>
+            <div class="mt-10 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+                &copy; 2026 XV Simpósio de Atuária.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

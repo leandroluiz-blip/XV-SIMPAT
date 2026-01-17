@@ -1,0 +1,41 @@
+/* Importando uma fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+/* Ajustes gerais */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Efeito de vidro na navbar se quiser habilitar depois */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+/* Personalização da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #32CD32; /* Simpat Green */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF6600; /* Simpat Orange */
+}
+
+/* Ajuste fino para a imagem dos palestrantes (hover) */
+.palestrante-img-container {
+    transition: transform 0.3s ease;
+}
